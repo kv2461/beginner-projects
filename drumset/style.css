@@ -1,0 +1,124 @@
+html {
+    font-size: 10px;
+    background: url('./background.jpeg');
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+
+  body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+  .key {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+  }
+  .playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
+
+  .ride{
+      position:absolute;
+      left:15%;
+  }
+
+  .crash{
+      position:absolute;
+      left:68%;
+  }
+
+  .hitom{
+      position:absolute;
+      left:35%;
+      top: 15%;
+  }
+
+  .hitom1{
+      position:absolute;
+      left:35%;
+      top:25%;
+  }
+
+  .midtom{
+      position:absolute;
+      left:55%;
+      top:15%;
+  }
+
+  .midtom1{
+      position:absolute;
+      left:55%;
+      top:25%;
+  }
+
+  .hihat{
+      position:absolute;
+      left:15%;
+      top:30%;
+  }
+
+  .hihat1{
+      position: absolute;
+      left:15%;
+      top:40%;
+  }
+  .hihat2{
+      position:absolute;
+      left:5%;
+      top:30%;
+  }
+
+  .hihat3{
+      position: absolute;
+      left:5%;
+      top:40%;
+  }
+
+  .kick{
+      position: absolute;
+      left:45%;
+      top:50%;
+  }
+
+  .snare{
+      position:absolute;
+      left:30%;
+      top:45%;
+  }
+
+  .snare1{
+      position:absolute;
+      left:30%;
+      top:55%;
+  }
+
+  .snare2{
+      position:absolute;
+      left:30%;
+      top:65%;
+  }
+
+  .lowtom{
+      position: absolute;
+      left:69%;
+      top:50%;
+  }
+
+  .lowtom1{
+      position:absolute;
+      left:69%;
+      top:60%;
+  }
